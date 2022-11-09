@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 90);
+    padding: 10px 200px;
+    border-bottom: 10px solid #1A1244;
+}
+nav ul{
+    display: flex;
+   
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 6px;
+}
+nav ul li a{
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: rgb(28, 93, 28);
+    border-radius: 10px;
+}
+
+
+nav div{
+    color: white;
+    font-size: 20px;
+}
+nav ul li a{
+    color: white;
+    font-size: 25px;
+}
+.searchicon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-image: url(images/website\ banner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+.searchicon-parent i{
+    font-size: 20px;
+   height: 30px;
+   width: 40px;
+    color: rgb(19, 91, 91);
+    background-color: rgb(9, 69, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.searchicon-parent input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
