@@ -8,7 +8,7 @@ nav{
     background-color: rgb(23, 23, 90);
     padding: 10px 200px;
     border-bottom: 4px solid #1A1244;
-    
+    position: sticky;
     top: 0;
 }
 nav ul{
