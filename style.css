@@ -7,7 +7,7 @@ nav{
     justify-content: space-between;
     background-color: rgb(23, 23, 90);
     padding: 10px 200px;
-    border-bottom: 10px solid #1A1244;
+    border-bottom: 4px solid #1A1244;
 }
 nav ul{
     display: flex;
@@ -37,6 +37,9 @@ nav ul li a{
     color: white;
     font-size: 25px;
 }
+
+/* hero area code here */
+
 .searchicon-parent{
     display: flex;
     justify-content: center;
@@ -68,4 +71,33 @@ header{
     border-radius: 5px;
     font-size: 20px;
     padding: 10px 20px;
+}
+
+/* main area code area */
+
+main{
+    background-color: #1A1244;
+    padding-top: 20px;
+}
+.main-section{
+    width: 1100;
+    margin: auto;
+    padding: 20px 0;
+  
+}
+.latest-videos{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    color: white;
+    font-weight: 20px;
+    font-size: 20px;
+    
+}
+.videos-number h4 span{
+        color: aqua;
+        background-color: black;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
 }
