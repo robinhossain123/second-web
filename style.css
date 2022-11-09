@@ -131,3 +131,28 @@ main{
     margin-top: 5px;
     font-size: 30px;
 }
+.previous-next-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.previous-next-parent  a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.previous-next-parent h3 a{
+    background-color: green;
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.previous-next-parent  div a{
+    background-color: black;
+    padding: 9px 9px;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+.previous-next-parent  div a:first-child{
+background-color: green;
+}
