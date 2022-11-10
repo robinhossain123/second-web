@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-
+/* nav code start here */
 
 nav{
     display: flex;
@@ -43,7 +43,7 @@ nav ul li a{
     font-size: 25px;
 }
 
-
+/* nav code end here */
 
 
 .article-parent{
